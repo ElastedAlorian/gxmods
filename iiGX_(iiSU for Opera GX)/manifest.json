@@ -1,0 +1,203 @@
+{
+  "description": "iiSU inspired theme for Opera GX.",
+  "developer": {
+    "name": "ElastedAlorian"
+  },
+  "icons": {
+    "512": "icon_512.png"
+  },
+  "manifest_version": 3,
+  "mod": {
+    "license": "license.txt",
+    "payload": {
+      "background_music": [
+        {
+          "author": "Thaddeus Silva",
+          "id": "iisu_bgm",
+          "name": "iiSU Background Music",
+          "tracks": [
+            "music/track_1.mp3"
+          ]
+        }
+      ],
+      "browser_sounds": [
+        {
+          "id": "iiSUAppSFX",
+          "sounds": {
+            "CLICK": ["sound/Menu Navigate.wav"],
+            "FEATURE_SWITCH_OFF": ["sound/Exit ConsolesApps.wav"],
+            "HOVER": ["sound/Enter ConsolesApps.wav"],
+            "HOVER_UP": ["sound/Menu Navigate.wav"],
+            "IMPORTANT_CLICK": ["sound/Enter ConsolesApps.wav"],
+            "LEVEL_UPGRADE":[ "sound/Open AppRom.wav"],
+            "LIMITER_OFF": ["sound/Open ContextMenu.wav"],
+            "LIMITER_ON": ["sound/Open ContextMenu.wav"],
+            "SWITCH_TOGGLE": ["sound/Navigation.wav"],
+            "TAB_CLOSE": ["sound/Navigation.wav"],
+            "TAB_INSERT": ["sound/Navigation.wav"],
+            "TAB_SLASH": ["sound/Navigation.wav"]
+          },
+          "name": "iiSU App Sounds"
+        }
+      ],
+      "fonts": [
+        {
+          "body": {
+            "name": "Cal Sans",
+            "variants": [
+              {
+                "path": "font/CalSans-regular.ttf"
+              }
+            ]
+          },
+          "header": {
+            "name": "Continuum",
+            "variants": [
+              {
+                "bold": "font/contb.ttf",
+                "light": "font/contl.ttf",
+                "path": "font/contm.ttf"
+              }
+            ]
+          },
+
+          "id": "fonts_01",
+          "name": "GXmas vibe"
+        }
+      ],
+      "keyboard_sounds": [
+        {
+          "TYPING_BACKSPACE": [
+            "sound/Key Click.wav"
+          ],
+          "TYPING_ENTER": [
+            "sound/Key Click.wav"
+          ],
+          "TYPING_LETTER": [
+            "sound/Key Click.wav"
+          ],
+          "TYPING_SPACE": [
+            "sound/Key Click.wav"
+          ],
+          "id": "iiSUKeySFX",
+          "name": "iiSU Key Sounds"
+        }
+      ],
+         "app_icon": [ {
+            "id": "app_icon_S01",
+            "name": "Opera GX Gradient",
+            "path": "app_icon/opera_gx_gradient.png"
+         }, {
+            "id": "app_icon_S02",
+            "name": "Mizu iiGX",
+            "path": "app_icon/mizu_iigx.png"
+         },
+         {
+            "id": "app_icon_S03",
+            "name": "Mizu iiGX 'Rainbow'",
+            "path": "app_icon/mizu_iigx_rainbow.png"
+         },
+          {
+            "id": "app_icon_S04",
+            "name": "Flat iiGX",
+            "path": "app_icon/iigx_flat.png"
+         }],
+      "theme": [
+        {
+          "dark": {
+            "gx_secondary_base": "#c97afa",
+            "gx_accent": "#80cbfd"
+          },
+          "id": "theme_01",
+          "light": {
+            "gx_accent": "#8258fa",
+            "gx_secondary_base": "#c97afa"
+          },
+          "name": "iiSU Colorizer"
+        }
+      ],
+      "wallpaper": [
+        {
+          "dark": {
+            "image": "wallpaper/dark_basic.png",
+            "text_color": "#FFFFFF",
+            "text_shadow": "#757575",
+
+            "ui_settings": {
+                  "background_blur": 78,
+                  "background_opacity": 50,
+                  "focus_mode": true,
+                  "islands_opacity": 0,
+                  "vignette_strength": 40
+               }
+
+          },
+          "id": "iiSU_ish",
+          "light": {
+            "image": "wallpaper/light_basic.png",
+            "text_color": "#000000",
+            "text_shadow": "#0B000E",
+            "whoever made the default text_color fully white": "screw you",
+
+             "ui_settings": {
+                  "background_blur": 78,
+                  "background_opacity": 50,
+                  "focus_mode": true,
+                  "islands_opacity": 100,
+                  "vignette_strength": 50
+               }
+          },
+          "name": "Your New Home_GX"
+        }
+      ],
+      "schema1browsersounds": [
+        {
+          "CLICK": [
+            "sound/click.mp3"
+          ],
+          "FEATURE_SWITCH_OFF": [
+            "sound/Exit ConsolesApps.wav"
+          ],
+          "FEATURE_SWITCH_ON": [
+            "sound/Enter ConsolesApps.wav"
+          ],
+          "HOVER": [
+            "sound/Menu Navigate.wav"
+          ],
+          "HOVER_UP": [
+            "sound/Navigation.wav"
+          ],
+          "IMPORTANT_CLICK": [
+            "sound/Enter ConsolesApps.wav"
+          ],
+          "LEVEL_UPGRADE": [
+            "sound/Open AppRom.wav"
+          ],
+          "LIMITER_OFF": [
+            "sound/Open ContextMenu.wav"
+          ],
+          "LIMITER_ON": [
+            "sound/Open ContextMenu.wav"
+          ],
+          "SWITCH_TOGGLE": [
+            "sound/Navigation.wav"
+          ],
+          "TAB_CLOSE": [
+            "sound/Navigation.wav"
+          ],
+          "TAB_INSERT": [
+            "sound/Navigation.wav"
+          ],
+          "TAB_SLASH": [
+            "sound/Navigation.wav"
+          ],
+          "id": "iiSUAppSFX",
+          "name": "iiSU App Sounds"
+        }
+      ]
+    },
+    "schema_version": 2
+  },
+  "name": "iiGX",
+  "version": "1.0"
+}
