@@ -11,7 +11,8 @@ This features things such as:
 - Four App Icons*
 - Three Splash Screens*
 - 2 Wallpapers (One for dark and light mode respecively.)
-*These elements are labelled as restricted and when uploaded to the website are only availible for official staff uploads. Therefore they aren't availible by default. To have access to these, either edit the manifest.json file from the folder in the repo and add it locally, or go to the direct location of the mod (in Opera GX's files) and edit it there. Somewhere around `user/AppData/Roaming/Opera Software/Opera GX Stable/Default/Extensions` (you'll have to find the folder from within here, it should be easy if you remember when you installed it.)
+
+*Elements with an asterick are labelled as restricted and when uploaded to the website are only availible for official staff uploads. Therefore they aren't availible by default. To have access to these, either edit the manifest.json file from the folder in the repo and add it locally, or go to the direct location of the mod (in Opera GX's files) and edit it there. Somewhere around `user/AppData/Roaming/Opera Software/Opera GX Stable/Default/Extensions` (you'll have to find the folder from within here, it should be easy if you remember when you installed it.)
 
 Things I will ***not*** add:
 - Game Strips (I have no need to.)
