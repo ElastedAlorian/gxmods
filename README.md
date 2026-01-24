@@ -42,5 +42,5 @@ The following instructions are unchanged from Opera's loading sample mods sectio
 
 ### Dark Mode
 ![Display4](images/dark1_2026-01-23_201150.png)
-![Display5]("images/dark2_2026-01-23_201414.png")
+![Display5](images/dark2_2026-01-23_201414.png)
 
