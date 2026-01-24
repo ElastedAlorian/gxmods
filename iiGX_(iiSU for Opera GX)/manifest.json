@@ -1,14 +1,7 @@
 {
   "name": "iiGX - iiSU Theme for Opera GX!",
   "version": "1.0",
-  "description": "iiSU inspired theme for Opera GX. Unaffiliated with iiSU Network.
-
-  All sounds were taken from iiSU 0.4.1.
-  Features custom wallpaper and colors (with support for light and dark mode!), app icon, fonts, and a custom splash screen! Three in fact!
-
-  This is my first mod for Opera GX, so it might be a little bit lackluster, but that's okay.
-
-  Special thanks to a couple mods for having references in their manifest file since I didn't watch any tutorial videos, as well as iiSU for having a good UI style, and for Google helping me figure out what a JSON Dictionary is. I've spoken enough, enjoy the mod!  ",
+  "description": "iiSU inspired theme for Opera GX. Unaffiliated with iiSU Network. - Check it on GitHub! https://www.github.com/ElastedAlorian/iiGX",
   "developer": {
     "name": "ElastedAlorian"
   },
@@ -17,6 +10,8 @@
   },
   "manifest_version": 3,
   "mod": {
+    "schema_version": 2,
+    "something goes here": "i dont know what",
     "license": "license.txt",
     "payload": {
       "background_music": [
@@ -29,7 +24,7 @@
           ]
         }
       ],
-      "splash_screen": [
+      "removed_splash_screen": [
         {
             "id": "splash_screen_iigx_1",
             "name": "iiGX Splash Screen",
@@ -67,31 +62,24 @@
           "name": "iiSU App Sounds"
         }
       ],
-      "fonts": [
-        {
-          "body": {
-            "name": "Cal Sans",
-            "variants": [
-              {
-                "path": "font/CalSans-regular.ttf"
-              }
-            ]
-          },
-          "header": {
-            "name": "Continuum",
-            "variants": [
-              {
-                "bold": "font/contb.ttf",
-                "light": "font/contl.ttf",
-                "path": "font/contb.ttf"
-              }
-            ]
-          },
 
-          "id": "fonts_01",
-          "name": "GXmas vibe"
-        }
-      ],
+       "removed_fonts": [ {
+            "header": {
+               "name": "Continuum",
+               "variants": [ {
+                  "path": "font/contb.ttf"
+               } ]
+            },
+            "body": {
+               "name": "CalSans",
+               "variants": [ {
+                  "path": "font/CalSans-Regular.ttf"
+               } ]
+            },
+            "id": "fonts_01",
+            "name": "iiSU Fonts"
+         } ],
+
       "keyboard_sounds": [
         {
           "TYPING_BACKSPACE": [
@@ -110,7 +98,7 @@
           "name": "iiSU Key Sounds"
         }
       ],
-         "app_icon": [ {
+         "removed_app_icon": [ {
             "id": "app_icon_S01",
             "name": "Opera GX Gradient",
             "path": "app_icon/opera_gx_gradient.png"
@@ -157,7 +145,6 @@
                   "islands_opacity": 0,
                   "vignette_strength": 40
                }
-
           },
           "id": "iiSU_ish",
           "light": {
@@ -165,7 +152,6 @@
             "text_color": "#000000",
             "text_shadow": "#0B000E",
             "whoever made the default text_color fully white": "screw you",
-
              "ui_settings": {
                   "background_blur": 78,
                   "background_opacity": 50,
@@ -176,54 +162,8 @@
           },
           "name": "Your New Home_GX"
         }
-      ],
-      "schema1browsersounds": [
-        {
-          "CLICK": [
-            "sound/click.mp3"
-          ],
-          "FEATURE_SWITCH_OFF": [
-            "sound/Exit ConsolesApps.wav"
-          ],
-          "FEATURE_SWITCH_ON": [
-            "sound/Enter ConsolesApps.wav"
-          ],
-          "HOVER": [
-            "sound/Menu Navigate.wav"
-          ],
-          "HOVER_UP": [
-            "sound/Navigation.wav"
-          ],
-          "IMPORTANT_CLICK": [
-            "sound/Enter ConsolesApps.wav"
-          ],
-          "LEVEL_UPGRADE": [
-            "sound/Open AppRom.wav"
-          ],
-          "LIMITER_OFF": [
-            "sound/Open ContextMenu.wav"
-          ],
-          "LIMITER_ON": [
-            "sound/Open ContextMenu.wav"
-          ],
-          "SWITCH_TOGGLE": [
-            "sound/Navigation.wav"
-          ],
-          "TAB_CLOSE": [
-            "sound/Navigation.wav"
-          ],
-          "TAB_INSERT": [
-            "sound/Navigation.wav"
-          ],
-          "TAB_SLASH": [
-            "sound/Navigation.wav"
-          ],
-          "id": "iiSUAppSFX",
-          "name": "iiSU App Sounds"
-        }
       ]
-    },
-    "schema_version": 2
+    }
   }
 
 }
