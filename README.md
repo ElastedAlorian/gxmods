@@ -1,7 +1,6 @@
+![branding](images/Branding.png)
+
 # What is iiGX?
-
-![branding](images/branding.png)
-
 This is a mod that attempts to bring an iiSU-esque experience to Opera GX. It is kind of random that I settled on Opera GX for this, but Opera GX is meant for gamers (like iiSU) and then it's also easy to customize, allowing stuff like custom colors and all that pizazz. (And it's also multiplatform unlike iiSU, haha.)
 
 ## Features
@@ -38,10 +37,10 @@ The following instructions are unchanged from Opera's loading sample mods sectio
 ## Preview
 - Splash Screens ![Display](images/Comparison.gif)
 ### Light Mode
-![Display](images/Screenshot 2026-01-23 201108.png)
-![Display](images/Screenshot 2026-01-23 201250.png)
+![Display2](images/light1_2026-01-23_201108.png)
+![Display3](images/light2_2026-01-23_201250.png)
 
 ### Dark Mode
-![Display](images/Screenshot 2026-01-23 201150.png)
-![Display](images/Screenshot 2026-01-23 201414.png)
+![Display4](images/dark1_2026-01-23_201150.png)
+![Display5]("images/dark2_2026-01-23_201414.png")
 
